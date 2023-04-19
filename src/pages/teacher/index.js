@@ -20,7 +20,7 @@ const LinkStyled = styled(Link)(({ theme }) => ({
 const DataGrid = () => {
   return (
     <Grid container spacing={6}>
-      <PageHeader title={<Typography variant='h5'>Student List</Typography>} />
+      <PageHeader title={<Typography variant='h5'>Teacher List</Typography>} />
       <Grid item xs={12}>
         <TableBasic />
       </Grid>

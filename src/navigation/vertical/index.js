@@ -8,7 +8,47 @@ const navigation = () => {
     {
       title: 'Student',
       path: '/student',
-      icon: 'mdi:email-outline'
+      icon: 'mdi:account-outline',
+      children: [
+        {
+          title: 'List',
+          path: '/student'
+        },
+        {
+          title: 'Add',
+          path: '/student/add'
+        }
+      ]
+    },
+    {
+      title: 'Teacher',
+      path: '/teacher',
+      icon: 'mdi:account-outline',
+      children: [
+        {
+          title: 'List',
+          path: '/teacher'
+        },
+        {
+          title: 'Add',
+          path: '/teacher/add'
+        }
+      ]
+    },
+    {
+      title: 'Course',
+      path: '/course',
+      icon: 'mdi:file-document-outline',
+      children: [
+        {
+          title: 'List',
+          path: '/course'
+        },
+        {
+          title: 'Add',
+          path: '/course/add'
+        }
+      ]
     }
   ]
 }
